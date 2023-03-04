@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;300;400;500;700&display=swap');
+
+* {
+    font-family: 'Hanken Grotesk', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 430px;
+    background: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px #00000028;
+}
+
+.box-blue {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    font-family: HankenGrotesk;
+    text-align: center;
+    background:linear-gradient(#6441FD,#332DE9) ;
+    color: #fff;
+    border-radius: 1rem;
+}
+
+.box-blue h5{
+    color: #bdbbf7;
+    margin-top: 22.1776px;
+    margin-bottom: 10px;
+}
+
+.box-blue h3{
+    margin-top: 15px;
+}
+
+.box-blue p {
+    width: 150px;
+    color: #bdbbf7;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 22.1776px;
+}
+
+.result {
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background:linear-gradient(#4926D0,#4734EE) ;
+}
+
+.result h1{
+    font-size: 38px;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.result h6{
+    color: hsl(242, 46%, 73%);
+    font-size: 9px;
+    margin: 0;
+    padding: 0;
+}
+
+.status{
+    height: 280px;
+    width: 220px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.reaction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 100%, 67%);
+    margin-left: 5px;
+}
+
+.reaction p {
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+.memory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(39, 100%, 56%);
+    margin-left: 5px;
+}
+
+.memory p {
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+.verbal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(166, 100%, 37%);
+    margin-left: 5px;
+}
+
+.verbal p {
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+.visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(234, 85%, 45%);
+    margin-left: 5px;
+}
+
+.visual p {
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+.score {
+    font-weight: bold;
+    color: #131418;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+.score span {
+    color: rgb(110, 110, 110);
+}
+
+.bar-reaction{
+    padding: 5px 5px;
+    margin: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5ccc9;
+    border-radius: 5px;
+}
+
+.bar-memory{
+    padding: 5px 5px;
+    margin: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeeec8;
+    border-radius: 5px;
+}
+
+.bar-verbal{
+    padding: 5px 5px;
+    margin: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bdf9f9;
+    border-radius: 5px;
+}
+
+.bar-visual {
+    padding: 5px 5px;
+    margin: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dcdcfb;
+    border-radius: 5px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+button {
+    width: 100%;
+    font-size: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    background: rgb(48,59,89);
+
+}
+
+button .btn-con {
+    margin-top: 10px ;
+}
+
+.attribution {
+    margin-top: 10px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+@media (max-width:400px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+        
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100% auto;
+        box-shadow: none;
+    }
+
+    .box-blue {
+        border-radius: 0 0 1rem 1rem;
+        height: 350px;
+        width: 100% ;
+    }
+
+    .box-blue h5 {
+        font-size: 15px;
+    }
+
+    .result {
+        width: 150px;
+        height: 150px;
+    }
+
+    .result h1 {
+        font-size: 60px;
+    }
+
+    .result h6 {
+        font-size: 15px;
+    }
+
+    .box-white {
+        display: flex;  
+        align-items: center;
+    }
+    
+    .status {
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        height: 100%;
+    }
+
+    .status p {
+        font-size: 15px;
+    }
+
+    .status .score {
+        font-size: 15px;
+    }
+    
+    
+    .status h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .bar-reaction{
+        height: 60px;
+        border-radius: 10px;
+    }
+
+    .bar-reaction svg {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .bar-memory{
+        height: 60px;
+        border-radius: 10px;
+    }
+
+    .bar-memory svg {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .bar-verbal{
+        height: 60px;
+        border-radius: 10px;
+    }
+
+    .bar-verbal svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .bar-visual {
+        height: 60px;
+        border-radius: 10px;
+    }
+
+    .bar-visual svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .btn {
+        height: 60px;
+ 
+    }
+
+    .btn button {
+        font-size: 15px;
+        border-radius: 2rem;
+    }
+}
